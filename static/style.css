@@ -1,12 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Roboto:wght@400;700&display=swap');
+
 :root {
   --White: hsl(0, 0%, 100%);
   --Light-Grey: hsl(217, 12%, 63%);
   --Medium-Grey: hsl(216, 12%, 54%);
   --Dark-Blue: hsl(213, 19%, 18%);
   --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
 }
 
 body {
-  background-color: var(--Very-Dark-Blue);
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #19191e;
   color: var(--White);
+
+  justify-content: center;
+  align-content: center;
+}
+
+.star {
+  width: fit-content;
+  margin: 30px 0;
+  padding: 10px;
+  background-color: var(--Dark-Blue);
+  border-radius: 50%;
+  box-shadow: 0 0 1px var(--Very-Dark-Blue);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px auto;
+  background: var(--Dark-Blue);
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  padding: 0 20px;
+}
+
+main p {
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px auto;
+  max-width: 100%;
+  width: 350px;
+  align-content: center;
+}
+
+.circle {
+  box-shadow: 0 0 1px var(--Very-Dark-Blue);
+  background-color: var(--Medium-Grey);
+  color: var(--Light-Grey);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  margin: 20px auto;
+  padding: 25px 0;
+  color: var(--White);
+  background-color: var(--Orange);
+  border: none;
+  border-radius: 20px;
 }
