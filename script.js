@@ -26,7 +26,7 @@ button.addEventListener('click', () => {
     const text = document.getElementById('Value-Selected');
     text.innerText = `You selected ${value} out of 5`;
   } else {
-    alert('Please, select a circle.');
+    alert('To continue, please rate first.');
   }
 });
 

@@ -1,0 +1,32 @@
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.thanks img {
+  margin: 40px 0 20px;
+  width: 150px;
+}
+
+p {
+  margin: 0;
+  color: var(--Medium-Grey);
+  font-size: 15px;
+}
+
+#Value-Selected {
+  color: var(--Orange);
+  background-color: var(--Transparent-Grey);
+  padding: 5px 30px;
+  border-radius: 25px;
+  margin: 20px 0 40px;
+}
+
+.hidden{
+  display: none;
+}
+
