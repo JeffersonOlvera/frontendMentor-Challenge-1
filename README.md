@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-css-variables-NgjYLLlY9z)
-- Live Site URL: [Add live site URL here](https://jeffersonrate-component.vercel.app/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/responsive-css-variables-NgjYLLlY9z)
+- Live Site URL: [Deploy on vercel](https://jeffersonrate-component.vercel.app/)
 
 ## My process
 
